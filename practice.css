@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: black;
+}
+button {
+    background: none;
+    color: blue;
+    border: 2px solid;
+    padding: 1em 2em; /*change space INSIDE button */
+    font-size: 1em;
+    transition: all 0.25s; /*transition all properties in .25 sec*/
+}
+button:hover {
+    border-color: blueviolet; /*changes border color*/
+    color: white; /*changes text color*/
+    box-shadow: 0 0.5em 0.5em -0.4em blueviolet; /*drop shadow*/
+    transform: translateY(-0.25em); /*move button up*/
+    cursor: pointer; 
+}
